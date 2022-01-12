@@ -16,7 +16,7 @@ namespace Oop101.IkinciGun.Services
             var paid = amount * CommissionRate;
             var perInstallment = paid / installment;
 
-            Console.WriteLine($"{customer}: {perInstallment}x{perInstallment:c2} Total: {paid:c2}");
+            Console.WriteLine($"{customer}: {installment} x {perInstallment:n2} Total: {paid:n2}");
             return true;
         }
     }

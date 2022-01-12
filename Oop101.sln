@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop101.IkinciGun", "Oop101.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop101.IkinciGunConsole", "Oop101.IkinciGunConsole\Oop101.IkinciGunConsole.csproj", "{3BA08CD6-3596-45A3-A732-6CC61061F2DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop101.IkinciGunWeb", "Oop101.IkinciGunWeb\Oop101.IkinciGunWeb.csproj", "{94BBDDA2-4FF6-42A3-AD58-ED321F0659D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3BA08CD6-3596-45A3-A732-6CC61061F2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BA08CD6-3596-45A3-A732-6CC61061F2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BA08CD6-3596-45A3-A732-6CC61061F2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BBDDA2-4FF6-42A3-AD58-ED321F0659D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BBDDA2-4FF6-42A3-AD58-ED321F0659D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BBDDA2-4FF6-42A3-AD58-ED321F0659D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BBDDA2-4FF6-42A3-AD58-ED321F0659D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,13 +1,13 @@
-﻿using System;
-using Oop101.IkinciGun.Abstracts;
+﻿using Oop101.IkinciGun.Abstracts;
+using System;
 
 namespace Oop101.IkinciGun.Services
 {
-    public class MaximumPaymentService : BasePaymentService, IPaymentService
+    public class AmexPaymentService : BasePaymentService, IPaymentService
     {
-        public MaximumPaymentService()
+        public AmexPaymentService()
         {
-            CommissionRate = 1.19m;
+            CommissionRate = 1.9m;
         }
         public bool MakePayment(decimal amount, int installment, string customer)
         {
