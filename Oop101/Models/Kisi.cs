@@ -64,12 +64,10 @@ namespace Oop101.Models
             }
             _ad = ad;
         }
-
         public string GetAd()
         {
             return _ad.Substring(0, 1).ToUpper() + _ad.Substring(1).ToLower();
         }
-
         public string Ad //Full Property
         {
             get
@@ -133,7 +131,6 @@ namespace Oop101.Models
                 return yas;
             }
         }
-
 
         public override string ToString()
         {

@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop101", "Oop101\Oop101.csproj", "{EB30AE89-4E16-47D2-B4E1-A2DAA61DF7C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oop101", "Oop101\Oop101.csproj", "{EB30AE89-4E16-47D2-B4E1-A2DAA61DF7C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop101.Business", "Oop101.Business\Oop101.Business.csproj", "{EB61320E-2F50-414C-BB34-AB3982F1FCBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oop101.Business", "Oop101.Business\Oop101.Business.csproj", "{EB61320E-2F50-414C-BB34-AB3982F1FCBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop101.IkinciGun", "Oop101.IkinciGun\Oop101.IkinciGun.csproj", "{7179C089-34E5-4B45-AE83-5420DC278CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop101.IkinciGunConsole", "Oop101.IkinciGunConsole\Oop101.IkinciGunConsole.csproj", "{3BA08CD6-3596-45A3-A732-6CC61061F2DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{EB61320E-2F50-414C-BB34-AB3982F1FCBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB61320E-2F50-414C-BB34-AB3982F1FCBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB61320E-2F50-414C-BB34-AB3982F1FCBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7179C089-34E5-4B45-AE83-5420DC278CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7179C089-34E5-4B45-AE83-5420DC278CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7179C089-34E5-4B45-AE83-5420DC278CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7179C089-34E5-4B45-AE83-5420DC278CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA08CD6-3596-45A3-A732-6CC61061F2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA08CD6-3596-45A3-A732-6CC61061F2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA08CD6-3596-45A3-A732-6CC61061F2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA08CD6-3596-45A3-A732-6CC61061F2DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
